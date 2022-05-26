@@ -23,7 +23,7 @@ const links: LinkType[] = [
   },
   {
     name: 'Website',
-    url: 'https://iyansr.id',
+    url: 'https://iyansr.id?utm_source=links.iyansr.id',
     icon: (
       <svg
         role="img"

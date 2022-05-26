@@ -22,7 +22,10 @@ const Home: NextPage = () => {
               target="_blank"
               rel="noopener noreferrer"
               key={String(index)}
-              className="link-button flex h-12 w-full items-center justify-center space-x-4 rounded-lg border-2 border-gray-900 bg-white  text-center font-bold tracking-wider"
+              className={`umami--click--link-${link.name} link-button 
+              flex h-12 w-full items-center justify-center 
+              space-x-4 rounded-lg border-2 border-gray-900 bg-white  
+              text-center font-bold tracking-wider`}
             >
               {link.icon}
               <div>{link.name}</div>
