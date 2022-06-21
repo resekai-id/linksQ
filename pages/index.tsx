@@ -20,7 +20,6 @@ const Home: NextPage = () => {
             <a
               href={link.url}
               target="_blank"
-              rel="noopener noreferrer"
               key={String(index)}
               className={`umami--click--link-${link.name} link-button 
               flex h-12 w-full items-center justify-center 
