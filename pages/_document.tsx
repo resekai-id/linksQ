@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 import { Fragment } from 'react'
 
 class MyDocument extends Document {
@@ -7,16 +8,18 @@ class MyDocument extends Document {
       <Html lang="id, en">
         <Head>
           <link href="/fonts/stylesheet.css" rel="stylesheet" />
+          {/* preconnect to analytics domin */}
+          <link rel="preconnect" href="https://cdn.splitbee.io" />
+
           <title>Links | Iyan Saputra</title>
           {process.env.NODE_ENV === 'production' && (
-            <Fragment>
-              <script
-                async
-                defer
-                data-website-id="9f0b070d-e128-4eb4-9b4a-984b02b01c08"
-                src="https://analytics.iyansr.id/umami.js"
-              ></script>
-            </Fragment>
+            <Script
+              id="splitbee-analytics"
+              strategy="lazyOnload"
+              async
+              defer
+              src="https://cdn.splitbee.io/sb.js"
+            />
           )}
         </Head>
         <body className="text-gray-400">
