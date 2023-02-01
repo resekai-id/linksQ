@@ -7,11 +7,11 @@ const Home: NextPage = () => {
       <div className="mt-12 text-center">
         <img
           className="mx-auto h-32 w-32 rounded-full border-4 border-gray-900"
-          src="https://avatars.githubusercontent.com/u/42711013?s=512&v=4"
+          src="https://avatars.githubusercontent.com/u/65483182?v=4"
           alt="Profile"
         />
 
-        <p className="mt-4 text-2xl ">Iyan Saputra</p>
+        <p className="mt-4 text-2xl ">ARH</p>
       </div>
 
       <div className="mx-auto mt-12 w-full max-w-sm flex-1 space-y-4 px-4">
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         })}
       </div>
       <p className="py-4 text-center font-cubano text-xs font-semibold tracking-wider">
-        ©{new Date().getFullYear()} | Iyan Saputra • Made with Next.jS
+        Copyright ©{new Date().getFullYear()} | ARH • Built by ARHOLIC
       </p>
     </div>
   )
