@@ -11,7 +11,7 @@ class MyDocument extends Document {
           {/* preconnect to analytics domin */}
           <link rel="preconnect" href="https://cdn.splitbee.io" />
 
-          <title>Links | Iyan Saputra</title>
+          <title>Links | ARH</title>
           {process.env.NODE_ENV === 'production' && (
             <Script
               id="splitbee-analytics"
