@@ -11,7 +11,7 @@ const Home: NextPage = () => {
           alt="Profile"
         />
 
-        <p className="mt-4 text-2xl ">ARH</p>
+        <p className="mt-4 text-2xl ">Arif Rahmanulhakim</p>
       </div>
 
       <div className="mx-auto mt-12 w-full max-w-sm flex-1 space-y-4 px-4">
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         })}
       </div>
       <p className="py-4 text-center font-cubano text-xs font-semibold tracking-wider">
-        Copyright ©{new Date().getFullYear()} | ARH • Built by ARHOLIC
+        Copyright © {new Date().getFullYear()} | ARH • Built by ARHOLIC
       </p>
     </div>
   )
